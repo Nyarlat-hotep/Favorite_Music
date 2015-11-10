@@ -59,6 +59,7 @@ h1 a {
     float: none;
     display: block;
     margin-top: 2.5em;
+
 }
 
 li {
@@ -78,3 +79,85 @@ li a {
     text-decoration: none;
     width: 100%;
 }
+
+
+h1 {
+    padding-left: 10px;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+
+.wrapper {
+    width: 96%;
+    display: block;
+}
+
+
+.ccform {
+    padding: 0 10px 20px 10px;
+}
+
+label {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: .875em;
+    padding: 0 0 5px 0;
+    font-family: "Proxima Nova";
+}
+
+input, textarea {
+    background: rgba(108, 0, 0, .1);
+    border: none;
+    display: block;
+    font-size: .875em;
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: 94%;
+    padding: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: "Proxima Nova";
+}
+
+.ccbtn {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    width: 105%;
+}
+
+.ccbtn:hover {
+    background-color: rgb(116, 33, 35) ;
+    color: white;
+}
+
+.last {
+    height: 4em;
+    padding: 10px;
+    background-color: rgba(29, 30, 25, 1);
+    /* box-shadow: 0px 0px 50px rgba(29, 30, 25, 1); */
+    border-top: 2px solid rgba(205, 206, 180, 1);
+}
+
+.social_icons {
+    padding: 1.5em;
+    text-align: center;
+}
+
+.social_icons a {
+    padding: 1.5em;
+    font-size: 1.2em;
+    color: rgba(205, 206, 180, 1);
+}
+
+
+
+
+
+
+/*-------------------------Media Query--------------------------*/
+
+
